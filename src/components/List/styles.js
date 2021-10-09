@@ -18,7 +18,7 @@ const ListContent = styles.section`
     }
 
     @media only screen and (min-width: 631px) {
-        padding-left: 150px;
+        padding-left: 100px;
     }
     h2{
         text-align:left;
@@ -32,8 +32,7 @@ const ListContent = styles.section`
         margin-top: 0;
         display: grid;
         list-style: none;
-        margin-left: -35px;
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
     .minmax, .hideMinMax{
         font-weight: 100;
