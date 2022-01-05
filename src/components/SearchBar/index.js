@@ -14,7 +14,7 @@ export default function SearchBar(props){
     const goNext = () => {
         localStorage.setItem('city', value);
         setValue('')
-        history.push("/detail")
+        history.push("/weatherWeb/detail")
     }
 
     return (

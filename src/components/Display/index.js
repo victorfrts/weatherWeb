@@ -11,7 +11,7 @@ export default function Display(){
     const search = localStorage.getItem('city');
     const [city,setCity] = React.useState('');
     const [minMax,setMinMax] = React.useState([]);
-    const goHome = () => {history.push("/")};
+    const goHome = () => {history.push("/weatherWeb")};
     
     const dayName = (day) => {
         const name = new Date(day * 1000)
