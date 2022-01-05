@@ -11,10 +11,11 @@ const ListContent = styles.section`
         .hideMinMax{
             display: none;
         }
+        left: 35%;
     }
     
     @media only screen and (min-width: 1023px) {
-        left: 30%;
+        left: 33%;
     }
 
     .hideMinMax{
