@@ -1,21 +1,17 @@
-import styles from "styled-components"
+import styled from "styled-components"
 
-const ListContent = styles.section`
+const ListContent = styled.section`
 
     position: relative;
-    left: 27.5%;
-    width: 60%;
-    max-width: 767px;
+    margin: 35px auto;
+    width: 50%;
+    min-width: 525px;
+    max-width: 565px;
 
-    @media only screen and (max-width: 774px) {
+    @media only screen and (max-width: 1079px) {
         .hideMinMax{
             display: none;
         }
-        left: 35%;
-    }
-    
-    @media only screen and (min-width: 1023px) {
-        left: 33%;
     }
 
     .hideMinMax{
@@ -25,18 +21,17 @@ const ListContent = styles.section`
     h2{
         text-align:left;
         color: white;
-        font-size: 2em;
-        margin-bottom: 0;   
+        font-size: 2.25rem;
+        margin: 5px 35px 0;   
         padding-bottom: 5px;
     }
     ul{
         text-align:left;
-        margin-top: 0;
         display: grid;
+        align-items: flex-start;
         list-style: none;
-        margin-left: -35px;
         max-width: 550px;
-        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     }
     .minmax, .hideMinMax{
         font-weight: 100;
@@ -44,8 +39,8 @@ const ListContent = styles.section`
         font-size: small;
     }
     li{
-        font-weight: 800;
-        font-size: medium;
+        font-weight: 700;
+        font-size: 1.25rem;
         line-height: 40px;
     }
 
