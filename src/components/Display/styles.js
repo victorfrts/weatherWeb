@@ -16,6 +16,7 @@ const DisplayContainer = styled.section`
     .cityDetail{
       display: relative;
       align-content: center; 
+      min-height: 250px;
     }
 
     .spinner{
@@ -54,7 +55,6 @@ const DisplayContainer = styled.section`
       margin-left:10%;
       font-weight:600;
       margin-top:10px;
-      margin-bot:auto;
       display:flex;
       float:left;
       font-size: 16px;
@@ -66,7 +66,6 @@ const DisplayContainer = styled.section`
       padding-left:10%;
       font-weight:600;
       margin-top:auto;
-      margin-bot:auto;
       display:flex;
       float:left;
       font-size: 32px;
@@ -76,7 +75,6 @@ const DisplayContainer = styled.section`
 
     .cityInfo{
       margin-top:auto;
-      margin-bot:auto;
       display:relative;
       list-style: none;
       text-align:left;
