@@ -2,18 +2,21 @@ import styles from "styled-components";
 
 const HeaderContainer = styles.section`
 
-    position: relative;
-    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     height: 15vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
 
     h1{
-        width:100%;
-        font-size:42px;
+        font-size:50px;
         color: white; 
-        float:center;
+        text-align:left;
+    }
+
+    @media only screen and (max-width: 1079px) {
+        h1{
+            max-width: 270px;
+        }
     }
 
 `
